@@ -4,6 +4,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
+\usepackage[italian]{babel}
 
 %intestazione --------------------------------------------
 \title{\
@@ -28,16 +29,43 @@ Vittoria Ossanna \\
 \maketitle
 \pagebreak
 
-%\tableofcontnents
+\tableofcontents
 \pagebreak
 
+\large{\addcontentsline{toc}{part}{Capitolo 1: Molecole, cellule e organismi modello}}
 \input{chapters/01_Introduzione}
+\setcounter{section}{0}
+
+\large{\addcontentsline{toc}{part}{Capitolo 2: Struttura e funzioni delle proteine}}
 \input{chapters/02_Proteine}
+\setcounter{section}{0}
+
+\large{\addcontentsline{toc}{part}{Capitolo 3: Struttura della membrana}}
 \input{chapters/03_Membrana}
+\setcounter{section}{0}
+
+\large{\addcontentsline{toc}{part}{Capitolo 4: DNA e cromosomi}}
 \input{chapters/04_DNAeCromosomi}
+\setcounter{section}{0}
+
+\large{\addcontentsline{toc}{part}{Capitolo 5: Dal DNA alle proteine}}
 \input{chapters/05_DogmaCentrale}
+\setcounter{section}{0}
+
+\large{\addcontentsline{toc}{part}{Capitolo 6: Citoscheletro}}
 \input{chapters/06_Citoscheletro}
+\setcounter{section}{0}
+
+\large{\addcontentsline{toc}{part}{Capitolo 7: Proteine di membrana destinate a organelli differenti}}
 \input{chapters/07_ProteineEOrganelli}
+\setcounter{section}{0}
+
+\large{\addcontentsline{toc}{part}{Capitolo 8: Traffico vescicolare}}
+\input{chapters/08_TrafficoVescicole}
+\setcounter{section}{0}
+
+\large{\addcontentsline{toc}{part}{Capitolo 9: Divisione cellulare}}
+\input{chapters/09_DivisioneCellulare}
 
 \input{sigle.tex}
 
